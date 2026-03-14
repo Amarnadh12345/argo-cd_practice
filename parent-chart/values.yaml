@@ -12,5 +12,5 @@ tomcat-deploy:
     repository: tomcat
     tag: stable
     pullPolicy: IfNotPresent
-  Service:
-    type: nodePort
+  # Service:
+  #   type: nodePort
