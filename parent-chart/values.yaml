@@ -1,0 +1,14 @@
+nginx-deploy:
+  enabled: true
+  image:
+    repository: nginx
+    tag: latest
+    pullPolicy: IfNotPresent
+
+
+tomcat-deploy:
+  enabled: true
+  image:
+    repository: tomcat
+    tag: latest
+    pullPolicy: IfNotPresent
